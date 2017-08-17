@@ -43,3 +43,4 @@
 - [Оптимізація SVG](https://jakearchibald.github.io/svgomg/)
 - [Color Name & Hue](http://www.color-blindness.com/color-name-hue/)
 - [Unicode Table](https://unicode-table.com/ru/)
+- [Про SVG](http://css.yoksel.ru/svg-sizes/)
