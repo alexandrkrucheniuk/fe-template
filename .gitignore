@@ -1,2 +1,6 @@
 node_modules/*
+build/*
+src/components/bower_components/*
+.vscode/*
 .idea/*
+*.iml

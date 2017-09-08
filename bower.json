@@ -1,0 +1,24 @@
+{
+  "name": "tb.freedoms.news",
+  "description": "tb.freedoms.news",
+  "main": "",
+  "authors": [
+    "l.dzyhanskyi", "andrew pereguda"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-scss": "*",
+    "jquery": "2.*",
+    "owl.carousel": "^2.2.1"
+  },
+  "devDependencies": {}
+}
