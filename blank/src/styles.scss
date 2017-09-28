@@ -1,0 +1,22 @@
+// Libs
+//----------------------------------------------------------------------
+@import './libs/normalize-scss/_normalize.scss';
+
+// Common
+//----------------------------------------------------------------------
+@import './common/_variables.scss';
+@import './common/_mixins.scss';
+@import './common/_helpers.scss';
+@import './common/_typography.scss';
+@import './common/_global.scss';
+
+// Blocks
+//----------------------------------------------------------------------
+@import './blocks/header/_header.scss';
+@import './blocks/footer/_footer.scss';
+@import './blocks/form/_form.scss';
+@import './blocks/button/_button.scss';
+
+// Shoukld be deleted after build
+//----------------------------------------------------------------------
+@import './common/_styleguide.scss';

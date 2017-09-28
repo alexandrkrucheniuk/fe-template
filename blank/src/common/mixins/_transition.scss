@@ -1,0 +1,7 @@
+// TRANSITION
+// Example: @include transition( width, 1s, ease-out, 0.5s);
+// Parameters: ease, ease-in, ease-out, ease-in-out, linear, steps, cubic-bezier .
+//----------------------------------------------------------------------
+@mixin transition($transition-property: all, $transition-duration: 0.25s, $transition-timing-function: ease, $transition-delay: 0s) {
+    transition: $transition-property $transition-duration $transition-timing-function $transition-delay;
+}

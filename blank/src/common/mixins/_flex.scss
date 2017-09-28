@@ -1,0 +1,68 @@
+// Flex for parent
+// @include flex-parent($flex-direction: row, $flex-wrap: nowrap, $justify-content: flex-start, $align-items: stretch, $align-content: stretch);
+//----------------------------------------------------------------------
+@mixin flex-parent (
+    $flex-direction: row,
+    $flex-wrap: nowrap,
+    $justify-content: flex-start,
+    $align-items: stretch,
+    $align-content: stretch
+    ) {
+    display: flex;
+
+    // align-content
+    //----------------------------------------------------------------------
+    @if $align-content != stretch {
+        align-content: $align-content
+    }
+
+    // align-items
+    //----------------------------------------------------------------------
+    @if $align-items != stretch {
+        align-items: $align-items
+    }
+
+    // flex-flow or justify-content or flex-direction
+    //----------------------------------------------------------------------
+    @if $flex-direction != row and $flex-wrap == nowrap {
+        flex-direction: $flex-direction;
+    } @else if $flex-wrap != nowrap and $flex-direction == row {
+        flex-wrap: $flex-wrap;
+    } @else {
+        flex-flow: $flex-direction $flex-wrap;
+    }
+
+    // justify-content
+    //----------------------------------------------------------------------
+    @if $justify-content != flex-start {
+        justify-content: $justify-content;
+    }
+}
+
+// Flex for child element
+// @include flex-child($flex-grow: 0, $flex-basis: auto, $flex-shrink: 1);
+//----------------------------------------------------------------------
+@mixin flex-child (
+    $flex-grow: 0,
+    $flex-basis: auto,
+    $flex-shrink: 1
+    ) {
+
+    // flex-basis
+    //----------------------------------------------------------------------
+    @if $flex-basis != auto {
+        flex-basis: $flex-basis;
+    }
+
+    // flex-grow
+    //----------------------------------------------------------------------
+    @if $flex-grow != 0 {
+        flex-grow: $flex-grow;
+    }
+
+    // flex-shrink
+    //----------------------------------------------------------------------
+    @if $flex-shrink != 1 {
+        flex-shrink: $flex-shrink;
+    }
+}

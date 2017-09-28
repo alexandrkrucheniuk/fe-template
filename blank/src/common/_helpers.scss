@@ -1,0 +1,135 @@
+/* SG
+# Helper/Aligning
+
+```html
+<div class="g_text-align_left">
+    Text align left
+</div>
+<div class="g_text-align_center">
+    Text align center
+</div>
+<div class="g_text-align_right">
+    Text align right
+</div>
+```
+*/
+/* SG
+
+# Helper/Inset space
+
+__class="g_space"__
+
+padding: $global-gutter; // As default $global-gutter: 20px;
+
+__class="g_space-vertical"__
+
+padding-top: $global-gutter; // As default $global-gutter: 20px;
+
+padding-bottom: $global-gutter; // As default $global-gutter: 20px;
+
+__class="g_space-vertical_top"__
+
+padding-top: $global-gutter; // As default $global-gutter: 20px;
+
+__class="g_space-vertical_bottom"__
+
+padding-bottom: $global-gutter; // As default $global-gutter: 20px;
+
+__class="g_space-horizontal"__
+
+padding-right: $global-gutter; // As default $global-gutter: 20px;
+
+padding-left: $global-gutter; // As default $global-gutter: 20px;
+
+__class="g_space-horizontal_right"__
+
+padding-right: $global-gutter; // As default $global-gutter: 20px;
+
+__class="g_space-horizontal_left"__
+
+padding-left: $global-gutter; // As default $global-gutter: 20px;
+*/
+
+// Global helpers
+//----------------------------------------------------------------------
+.g {
+    &_text-align {
+        &_left {
+            text-align: left;
+
+            &_tablet {
+                @include respond-to(tablet) {
+                    text-align: left;
+                }
+            }
+
+            &_phone {
+                @include respond-to(phone) {
+                    text-align: left;
+                }
+            }
+        }
+
+        &_center {
+            text-align: center;
+
+            &_tablet {
+                @include respond-to(tablet) {
+                    text-align: center;
+                }
+            }
+
+            &_phone {
+                @include respond-to(phone) {
+                    text-align: center;
+                }
+            }
+        }
+
+        &_right {
+            text-align: right;
+
+            &_tablet {
+                @include respond-to(tablet) {
+                    text-align: right;
+                }
+            }
+
+            &_phone {
+                @include respond-to(phone) {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    &_space {
+        padding: $global-gutter;
+
+        &-vertical {
+            padding-top: $global-gutter;
+            padding-bottom: $global-gutter;
+
+            &_top {
+                padding-top: $global-gutter;
+            }
+
+            &_bottom {
+                padding-bottom: $global-gutter;
+            }
+        }
+
+        &-horizontal {
+            padding-right: $global-gutter;
+            padding-left: $global-gutter;
+
+            &_right {
+                padding-right: $global-gutter;
+            }
+
+            &_left {
+                padding-left: $global-gutter;
+            }
+        }
+    }
+}

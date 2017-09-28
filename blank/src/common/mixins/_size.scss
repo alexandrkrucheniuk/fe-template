@@ -1,0 +1,31 @@
+// Mixin for block size
+// @include size($width: null, $height: null, $max-width: null, $max-height: null, $min-width: null, $min-height: null);
+//----------------------------------------------------------------------
+@mixin size (
+    $width: null,
+    $height: null,
+    $max-width: null,
+    $max-height: null,
+    $min-width: null,
+    $min-height: null
+    ) {
+
+    @if $width {
+        width: $width;
+    }
+    @if $height {
+        height: $height;
+    }
+    @if $max-width {
+        max-width: $max-width;
+    }
+    @if $max-height {
+        max-height: $max-height;
+    }
+    @if $min-width {
+        min-width: $min-width;
+    }
+    @if $min-height {
+        min-height: $min-height;
+    }
+}

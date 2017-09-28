@@ -1,0 +1,122 @@
+/* SG
+# Typography
+
+```html
+
+<h1>(h1) Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1><img src="../dev/images/temporary/image-with-class-allign-left.png" alt="align-left" class="align-left"/>
+<p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quia asperiores sequi, rerum eveniet accusantium dolorum at maiores! Aspernatur tempore, labore, fugiat </p>
+<h2>(h2) Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+<ul> 
+    <li>(mark list)</li>
+    <li>(mark list) Omnis sit, culpa dicta nam, eaque saepe quis accusantium qui nisi corporis dolorem iste laboriosam non aliquid hic sed aperiam molestias. Accusantium non vitae numquam, ex esse soluta id nisi.</li>
+    <li>(mark list) Corporis consequuntur esse ratione quisquam ad, ducimus magnam possimus aspernatur praesentium dicta corrupti a reprehenderit enim sed maiores nobis, quidem nihil ipsam, asperiores minus necessitatibus! Enim mollitia pariatur, debitis voluptas.</li>
+    <li>(mark list) Corrupti nemo modi exercitationem saepe odio minima ad veniam repudiandae cupiditate et quasi, tempora repellat, dolore aliquid dolores, explicabo praesentium eveniet voluptatum nisi. Placeat neque dicta sit maiores ab fuga!</li>
+    <li>(mark list) Consectetur totam rem laboriosam quibusdam, voluptate sapiente laborum reprehenderit aliquid libero cum esse dignissimos perspiciatis, beatae odit, quas eum incidunt impedit modi ad illum ipsum temporibus reiciendis delectus repellat? Corporis!</li>
+    <li>(mark list) Commodi, quaerat quas! Cum repellendus animi veritatis ipsam sequi hic distinctio beatae aliquid libero, explicabo eaque ipsum rem modi inventore eos, tempore porro unde, aut voluptatem dolorum? Tempora magni, quibusdam?</li>
+    <li>(mark list) Mollitia, odio, iste! Voluptatibus maxime quisquam debitis ratione assumenda consequuntur hic repellendus, corrupti animi quaerat, dolores. Velit ducimus, odio, expedita explicabo nobis necessitatibus sint error labore laborum facere officia tempora!</li>
+    <li>(mark list) Nihil eum reiciendis ipsam perspiciatis blanditiis atque minima voluptatem, mollitia neque adipisci. Quis sunt cumque eligendi cupiditate nihil saepe labore, dolores voluptas voluptatibus doloribus eaque expedita, quibusdam velit quidem ex.</li>
+</ul>
+<div class="table-container">
+    <table> 
+        <caption>(table, table caption) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem tempore, ex nisi officia error facilis adipisci maiores assumenda earum, mollitia laboriosam quas quod, aliquid illo ipsa tenetur qui sunt eaque.</caption>
+        <tbody> 
+            <tr> 
+                <th>(TH) Title 1</th>
+                <th>(TH) Title 2</th>
+                <th>(TH) Title 3</th>
+                <th>(TH) Title 4</th>
+                <th>(TH) Title 5</th>
+            </tr>
+            <tr> 
+                <td rowspan="2">(TD rowspan - 2) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi expedita numquam perspiciatis dolorum eos, quasi tenetur aspernatur adipisci! Explicabo, porro impedit! Culpa fugit placeat distinctio perferendis repellat adipisci esse libero.</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, iure. Odit provident unde minus officiis, voluptatum, ratione commodi molestias dolorem totam asperiores in quo illo eum optio fuga quis facilis?</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis impedit nihil neque deserunt distinctio aut dolorem perspiciatis, numquam nobis ad voluptas mollitia atque reprehenderit repudiandae necessitatibus pariatur non quisquam ducimus.</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius inventore, similique sequi, harum libero magni assumenda incidunt necessitatibus nobis est nulla. Error qui debitis, nesciunt quae labore, quisquam quam ab.</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis error, voluptatibus! Veniam asperiores aut iure, qui delectus voluptatem amet eos debitis, perferendis dignissimos, esse laboriosam libero aperiam tempore corrupti tenetur!</td>
+            </tr>
+            <tr> 
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, iure. Odit provident unde minus officiis, voluptatum, ratione commodi molestias dolorem totam asperiores in quo illo eum optio fuga quis facilis?</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis impedit nihil neque deserunt distinctio aut dolorem perspiciatis, numquam nobis ad voluptas mollitia atque reprehenderit repudiandae necessitatibus pariatur non quisquam ducimus.</td>
+                <td colspan="2">(TD colspan - 2) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius inventore, similique sequi, harum libero magni assumenda incidunt necessitatibus nobis est nulla. Error qui debitis, nesciunt quae labore, quisquam quam ab.</td>
+            </tr>
+            <tr> 
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi expedita numquam perspiciatis dolorum eos, quasi tenetur aspernatur adipisci! Explicabo, porro impedit! Culpa fugit placeat distinctio perferendis repellat adipisci esse libero.</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, iure. Odit provident unde minus officiis, voluptatum, ratione commodi molestias dolorem totam asperiores in quo illo eum optio fuga quis facilis?</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis impedit nihil neque deserunt distinctio aut dolorem perspiciatis, numquam nobis ad voluptas mollitia atque reprehenderit repudiandae necessitatibus pariatur non quisquam ducimus.</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius inventore, similique sequi, harum libero magni assumenda incidunt necessitatibus nobis est nulla. Error qui debitis, nesciunt quae labore, quisquam quam ab.</td>
+                <td>(TD) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis error, voluptatibus! Veniam asperiores aut iure, qui delectus voluptatem amet eos debitis, perferendis dignissimos, esse laboriosam libero aperiam tempore corrupti tenetur!</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>(Paragraph) Delectus expedita sint repellendus neque. Sequi molestiae delectus est dolore commodi omnis laboriosam similique quos inventore officia! Id nesciunt et architecto, quas praesentium suscipit, qui, cupiditate aliquid inventore ab ratione.</p>
+<h3>(h3) Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+<p>(Paragraph) Repellendus sit modi beatae tempora hic consequuntur voluptas, quaerat inventore, accusantium lorem molestias provident nam quae pariatur em (em text) lorem mollitia veniam animi non saepe aut. Doloribus laborum odit, repellat minima sunt iure.</p><img src="../dev/images/temporary/image-with-class-allign-right.png" alt="align-right" class="align-right"/>
+<ol> 
+    <li>(decimal list)</li>
+    <li>(decimal list) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sed id non excepturi facilis atque culpa. Incidunt, nemo, iusto est labore tenetur reprehenderit numquam assumenda voluptatem libero in atque, repellendus.
+        <h4>(h4) Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+        <ul> 
+            <li>(mark list into list)</li>
+            <li>(mark list into list) Omnis sit, culpa dicta nam, eaque saepe quis accusantium qui nisi corporis dolorem iste laboriosam non aliquid hic sed aperiam molestias. Accusantium non vitae numquam, ex esse soluta id nisi.</li>
+            <li>(mark list into list) Corporis consequuntur esse ratione quisquam ad, ducimus magnam possimus aspernatur praesentium dicta corrupti a reprehenderit enim sed maiores nobis, quidem nihil ipsam, asperiores minus necessitatibus! Enim mollitia pariatur, debitis voluptas.</li>
+            <li>(mark list into list) Corrupti nemo modi exercitationem saepe odio minima ad veniam repudiandae cupiditate et quasi, tempora repellat, dolore aliquid dolores, explicabo praesentium eveniet voluptatum nisi. Placeat neque dicta sit maiores ab fuga!</li>
+            <li>(mark list into list) Consectetur totam rem laboriosam quibusdam, voluptate sapiente laborum reprehenderit aliquid libero cum esse dignissimos perspiciatis, beatae odit, quas eum incidunt impedit modi ad illum ipsum temporibus reiciendis delectus repellat? Corporis!</li>
+            <li>(mark list into list) Commodi, quaerat quas! Cum repellendus animi veritatis ipsam sequi hic distinctio beatae aliquid libero, explicabo eaque ipsum rem modi inventore eos, tempore porro unde, aut voluptatem dolorum? Tempora magni, quibusdam?</li>
+            <li>(mark list into list) Mollitia, odio, iste! Voluptatibus maxime quisquam debitis ratione assumenda consequuntur hic repellendus, corrupti animi quaerat, dolores. Velit ducimus, odio, expedita explicabo nobis necessitatibus sint error labore laborum facere officia tempora!</li>
+            <li>(mark list into list) Nihil eum reiciendis ipsam perspiciatis blanditiis atque minima voluptatem, mollitia neque adipisci. Quis sunt cumque eligendi cupiditate nihil saepe labore, dolores voluptas voluptatibus doloribus eaque expedita, quibusdam velit quidem ex.</li>
+        </ul>
+    </li>
+    <li>(decimal list)<img src="../dev/images/temporary/image-with-class-allign-center.png" alt="align-center" class="align-center"/>
+        <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptates magnam quam possimus fuga corporis nulla nostrum quaerat architecto sunt eligendi, facere, accusamus vel hic? Illum quasi saepe commodi, voluptates.</p>
+        <p>(Paragraph) Beatae suscipit eligendi tempore veritatis optio itaque quas, ducimus minima quidem a vero delectus dolorum sed odit vel molestias eius labore. Voluptatem autem, fugiat minus eius est doloribus magnam sit!</p>
+    </li>
+    <li>(decimal list)
+        <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores fugit dolorem nulla ratione molestias id quae iusto, possimus vel saepe quam debitis tempora, odit excepturi, pariatur beatae at laudantium a.</p>
+        <p>(Paragraph) Eligendi quos explicabo alias, at, deleniti sit rerum incidunt? Reiciendis fuga, dolore distinctio, sit at, commodi labore culpa odit asperiores natus eius provident molestiae saepe, vitae ea mollitia? Numquam, sint!</p>
+    </li>
+    <li>(decimal list)
+        <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aperiam laudantium qui laborum. Nemo placeat saepe molestias facilis. Saepe alias reiciendis dolore, deserunt numquam quae eveniet ad similique consectetur dolores.</p>
+        <ol> 
+            <li>(decimal list into list)
+                <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptates magnam quam possimus fuga corporis nulla nostrum quaerat architecto sunt eligendi, facere, accusamus vel hic? Illum quasi saepe commodi, voluptates.</p>
+                <p>(Paragraph) Beatae suscipit eligendi tempore veritatis optio itaque quas, ducimus minima quidem a vero delectus dolorum sed odit vel molestias eius labore. Voluptatem autem, fugiat minus eius est doloribus magnam sit!</p>
+            </li>
+            <li>(decimal list into list)
+                <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores fugit dolorem nulla ratione molestias id quae iusto, possimus vel saepe quam debitis tempora, odit excepturi, pariatur beatae at laudantium a.</p>
+                <p>(Paragraph) Eligendi quos explicabo alias, at, deleniti sit rerum incidunt? Reiciendis fuga, dolore distinctio, sit at, commodi labore culpa odit asperiores natus eius provident molestiae saepe, vitae ea mollitia? Numquam, sint!</p>
+            </li>
+            <li>(decimal list into list)
+                <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aperiam laudantium qui laborum. Nemo placeat saepe molestias facilis. Saepe alias reiciendis dolore, deserunt numquam quae eveniet ad similique consectetur dolores.</p>
+                <p>(Paragraph) Voluptas cumque a hic perspiciatis, debitis officia quod distinctio, nisi at, reprehenderit corrupti sapiente neque. Consectetur, architecto saepe corrupti dolorem laudantium molestiae vel illum, labore, minus temporibus reiciendis perferendis voluptate!</p>
+            </li>
+            <li>(decimal list into list)
+                <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reiciendis animi ullam commodi obcaecati laborum ut necessitatibus velit sequi magni maxime natus, vel tenetur ipsa, qui nostrum incidunt praesentium corporis!</p>
+                <p>(Paragraph) Sit quae eius, reiciendis unde quod perspiciatis dolor repellendus error ipsam laborum nemo accusantium animi a. Praesentium quae fuga dolorum fugiat excepturi et veniam in, similique vitae laboriosam ipsa nihil?</p>
+            </li>
+            <li>(decimal list into list)
+                <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nesciunt provident, laudantium corrupti laborum ea consequuntur tempore facere dolores ducimus perspiciatis aperiam sit rerum voluptatem? Quisquam, dignissimos. Ab, animi, inventore.</p>
+                <p>(Paragraph) Laudantium quasi impedit aut illum deserunt suscipit. Nisi consequuntur, tenetur voluptate ut, laudantium assumenda perspiciatis in inventore rem quidem! Dolores natus illum labore asperiores, similique distinctio eligendi nihil, praesentium consequuntur!</p>
+            </li>
+        </ol>
+    </li>
+    <li>(decimal list)
+        <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit reiciendis animi ullam commodi obcaecati laborum ut necessitatibus velit sequi magni maxime natus, vel tenetur ipsa, qui nostrum incidunt praesentium corporis!</p>
+        <p>(Paragraph) Sit quae eius, reiciendis unde quod perspiciatis dolor repellendus error ipsam laborum nemo accusantium animi a. Praesentium quae fuga dolorum fugiat excepturi et veniam in, similique vitae laboriosam ipsa nihil?</p>
+    </li>
+    <li>(decimal list)
+        <p>(Paragraph) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nesciunt provident, laudantium corrupti laborum ea consequuntur tempore facere dolores ducimus perspiciatis aperiam sit rerum voluptatem? Quisquam, dignissimos. Ab, animi, inventore.</p>
+        <p>(Paragraph) Laudantium quasi impedit aut illum deserunt suscipit. Nisi consequuntur, tenetur voluptate ut, laudantium assumenda perspiciatis in inventore rem quidem! Dolores natus illum labore asperiores, similique distinctio eligendi nihil, praesentium consequuntur!</p>
+    </li>
+</ol>
+<p>(Paragraph) Adipisci laudantium quia enim optio fuga temporibus, soluta beatae, eaque quod fugit dolorum. Consequuntur cupiditate possimus vitae, iusto magni nesciunt officiis. </p><img src="../dev/images/temporary/content-image-without-class.png" alt="without-class"/>
+<h5>(h5) Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+<p>(Paragraph) Quos placeat doloremque maiores, nemo ab nostrum, aspernatur ut culpa quod ipsa voluptatum optio accusantium quidem sapiente, mollitia quasi enim. Unde distinctio sint dignissimos vitae nobis rem saepe sequi maiores?</p>
+<p>(Paragraph) Ducimus voluptatum molestiae voluptate delectus! Adipisci cumque, quisquam quis, rem, mollitia maiores itaque nam necessitatibus exercitationem fugiat quod sunt alias magni vel inventore. Asperiores strong (strong text) lorem illum quaerat, ipsum tempora, earum.</p>
+<h6>(h6) Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
+<p>(Paragraph) Accusamus quam minus ratione eveniet at temporibus, corporis odio eligendi magnam! Distinctio, aut, beatae officia </p>
+<p>(Paragraph) Inventore corrupti fugit asperiores doloribus porro </p>
+<p>(Paragraph) Fugiat quam, eveniet, obcaecati ducimus eos suscipit veritatis consequatur sint officiis harum neque voluptatum temporibus nihil debitis, est veniam. Rem quisquam saepe delectus ea, sunt assumenda in ad blanditiis? Suscipit.</p>
+<p>(Paragraph) Modi omnis alias nulla hic, vero maiores laboriosam ea ad repellat explicabo sit fugiat debitis obcaecati dignissimos, eveniet enim autem est laborum quas animi aperiam, minus cumque! Atque, similique, veniam.</p>
+```
+*/

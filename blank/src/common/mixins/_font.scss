@@ -1,0 +1,82 @@
+// Font
+// @include font($font_style: null, $font_variant: null, $font_weight: null, $font_size: null, $line_height: null, $font_family: null, $text_transform: null, $color: null, $background: null, $text-decoration: null, $user-select: null, $white-space: null);
+@mixin font (
+    $font_style: null,
+    $font_variant: null,
+    $font_weight: null,
+    $font_size: null,
+    $line_height: null,
+    $font_family: null,
+    $text_transform: null,
+    $color: null,
+    $background: null,
+    $text-decoration: null,
+    $user-select: null,
+    $white-space: null
+    ) {
+    @if $font_size and $font_family {
+        $font_size_and_line_height: null;
+
+        @if $line_height {
+            $font_size_and_line_height: $font_size + unquote("/") + $line_height;
+        } @else if {
+            $font_size_and_line_height: $font_size;
+        }
+        @if $background {
+            background: $background;
+        }
+        @if $color {
+            color: $color;
+        }
+        font: $font_style $font_variant $font_weight $font_size_and_line_height $font_family;
+        @if $text-decoration {
+            text-decoration: $text-decoration;
+        }
+        @if $text_transform {
+            text-transform: $text_transform;
+        }
+        @if $user-select {
+            user-select: $user-select;
+        }
+        @if $white-space {
+            white-space: $white-space;
+        }
+    } @else {
+        @if $background {
+            background: $background;
+        }
+        @if $color {
+            color: $color;
+        }
+        @if $font_style {
+            font-style: $font_style;
+        }
+        @if $font_variant {
+            font-variant: $font_variant;
+        }
+        @if $font_weight {
+            font-weight: $font_weight;
+        }
+        @if $font_size {
+            font-size: $font_size;
+        }
+        @if $line_height {
+            line-height: $line_height;
+        }
+        @if $font_family {
+            font-family: $font_family;
+        }
+        @if $text-decoration {
+            text-decoration: $text-decoration;
+        }
+        @if $text_transform {
+            text-transform: $text_transform;
+        }
+        @if $user-select {
+            user-select: $user-select;
+        }
+        @if $white-space {
+            white-space: $white-space;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+// Custom grid
+//----------------------------------------------------------------------
+$mx-grid-columns: 12; // Columns count
+
+.grid {
+    @include clearfix;
+
+    width: $desktop;
+    max-width: 100%;
+    margin: 0 auto;
+
+    @include respond-to(tablet) {
+        width: $tablet;
+    }
+
+    @include respond-to(phone) {
+        width: $phone;
+        max-width: 95%;
+    }
+}
+
+// Columns
+//----------------------------------------------------------------------
+[class*="grid_col_"] {
+    min-height: 1px;
+
+    @include transition(width);
+
+    @include respond-to(not-phone) {
+        float: left;
+    }
+
+    ~ [class*="grid_col_"] {
+        @include respond-to(phone) {
+            margin-top: $global-gutter;
+        }
+    }
+}
+
+.grid_col {
+    @function column(
+        $n) {
+        @return percentage( $n * 1 / $mx-grid-columns );
+    }
+
+    @for $i from 0 through $mx-grid-columns {
+        &_#{$i} {
+            width: column($i);
+
+            &_tablet {
+                @include respond-to(tablet) {
+                    width: column($i);
+                }
+            }
+
+            &_phone {
+                @include respond-to(phone) {
+                    width: column($i);
+                }
+            }
+
+            &_not-desktop {
+                @include respond-to(not-desktop) {
+                    width: column($i);
+                }
+            }
+
+            &_not-phone {
+                @include respond-to(not-phone) {
+                    width: column($i);
+                }
+            }
+        }
+    }
+}
